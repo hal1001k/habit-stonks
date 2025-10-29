@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Habit Stonks – Privacy Policy</title>
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; color: #222; }
-    h1, h2 { color: #1a202c; }
-    a { color: #2b6cb0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;margin:2rem;line-height:1.6;color:#222}
+    h1,h2{color:#111}
+    a{color:#2b6cb0;text-decoration:none}
+    a:hover{text-decoration:underline}
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Effective Date: October 2025</p>
+<h1>Privacy Policy</h1>
+<p>Effective date: <strong>November 01, 2025</strong></p>
 
-  <p>
-    This Privacy Policy explains how <strong>Habit Stonks</strong> (“the App”, “we”, “our”) collects, uses, and protects your personal data.
-    We are committed to respecting your privacy and complying with applicable data protection laws.
-  </p>
+<h2>1) Who we are</h2>
+<p>
+  Controller: <strong>Individual Entrepreneur Daud Gazizullin</strong><br>
+  Email: <a href="mailto:pandora.appbox@proton.me">pandora.appbox@proton.me</a>
+</p>
 
-  <h2>1. Information We Store</h2>
-  <ul>
-    <li><strong>Local Data:</strong> All habits, schedules, and logs are stored locally on your device using an encrypted local database.</li>
-    <li><strong>Cloud Sync (Optional):</strong> If you choose to sign in and enable synchronization, data is securely stored in your Supabase account, which uses PostgreSQL and Supabase Auth hosted on your chosen Supabase region.</li>
-    <li><strong>Authentication Data:</strong> When using Google Sign-In or other providers, we store only your unique user ID (UUID) and email. No OAuth tokens or passwords are stored in our app or servers.</li>
-  </ul>
+<h2>2) What information we process</h2>
+<ul>
+  <li><strong>Account identifiers:</strong> email address and authentication ID (UUID) when you sign in with Google or another provider.</li>
+  <li><strong>App content:</strong> habits, categories, contexts, schedules, and logs you create inside the app.</li>
+  <li><strong>Technical data:</strong> timestamps and minimal diagnostic logs needed for security and reliability.</li>
+</ul>
 
-  <h2>2. How We Use Data</h2>
-  <p>Your data is used solely to operate the app — for example, displaying your habits, tracking progress, or synchronizing between devices. We do not use your information for advertising, analytics, or profiling.</p>
+<h2>3) Where data is stored</h2>
+<ul>
+  <li><strong>On your device:</strong> all habit data is stored locally in an encrypted database (Drift/SQLite).</li>
+  <li><strong>Cloud backend:</strong> if you enable sync, data is transmitted securely to our self-hosted backend running on cloud infrastructure located in the EU or other regions offering comparable protection. The provider may change, but data is always processed under our control.</li>
+</ul>
 
-  <h2>3. Data Sharing</h2>
-  <p>
-    We do not share or sell your data to third parties.
-    Supabase acts as a data processor providing backend hosting.
-    Google acts as an identity provider when you sign in.
-  </p>
+<h2>4) Purposes and legal bases</h2>
+<ul>
+  <li>Provide, maintain, and sync the app (performance of contract).</li>
+  <li>Secure accounts and prevent abuse (legitimate interest).</li>
+  <li>Send optional notifications (consent, which you may withdraw).</li>
+</ul>
 
-  <h2>4. Your Rights</h2>
-  <ul>
-    <li>Access and export your data at any time.</li>
-    <li>Delete your account and data permanently by deleting your Supabase user or uninstalling the app.</li>
-    <li>Contact us to request manual deletion if needed.</li>
-  </ul>
+<h2>5) Sharing and processors</h2>
+<p>We do not sell or rent your data. We may use third-party infrastructure providers (for example, cloud hosting, email delivery, or database management) solely to operate the service, bound by data-processing agreements. Authentication via Google uses Google LLC as an identity provider under their <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
 
-  <h2>5. Security</h2>
-  <p>All communications with the backend are encrypted via HTTPS/TLS. Local databases are accessible only within your device sandbox. We employ optimistic concurrency and UUID-based isolation to prevent cross-user access.</p>
+<h2>6) International transfers</h2>
+<p>When data leaves Georgia or the EEA, we rely on contractual safeguards such as the EU Standard Contractual Clauses. Hosting regions are selected to provide GDPR-level protection.</p>
 
-  <h2>6. Children’s Privacy</h2>
-  <p>The App is not intended for users under 16. We do not knowingly collect personal data from minors.</p>
+<h2>7) Retention</h2>
+<ul>
+  <li><strong>Local data:</strong> remains until you delete it or uninstall the app.</li>
+  <li><strong>Cloud data:</strong> retained while your account is active and deleted upon request or account removal.</li>
+  <li><strong>Logs:</strong> kept briefly for security and troubleshooting, then deleted or anonymized.</li>
+</ul>
 
-  <h2>7. Policy Changes</h2>
-  <p>We may update this policy periodically. The “Effective Date” above reflects the latest revision. Continued use after updates means you accept the revised version.</p>
+<h2>8) Your rights</h2>
+<p>You may request access, correction, deletion, or export of your data at any time.  
+To exercise these rights, email <a href="mailto:pandora.appbox@proton.me">pandora.appbox@proton.me</a>.  
+You can also contact the Personal Data Protection Service of Georgia (<a href="https://personaldata.ge">personaldata.ge</a>) or, if you are an EU resident, your local supervisory authority.</p>
 
-  <h2>8. Contact</h2>
-  <p>For privacy questions, contact <a href="mailto:pandora.appbox@proton.me">pandora.appbox@proton.me</a>.</p>
+<h2>9) Security</h2>
+<p>Data in transit is protected by HTTPS/TLS. Server access is restricted and monitored. We apply least-privilege principles and regular updates to reduce risk.</p>
 
-  <p><a href="index.html">← Back to Home</a></p>
+<h2>10) Children</h2>
+<p>The app is not directed to children under 16, and we do not knowingly collect their data.</p>
+
+<h2>11) Changes</h2>
+<p>We may revise this policy. The effective date above shows the latest version. Material updates will be announced in-app or on our website.</p>
+
+<h2>12) Contact</h2>
+<p>Questions or requests: <a href="mailto:pandora.appbox@proton.me">pandora.appbox@proton.me</a></p>
+
+<p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>
